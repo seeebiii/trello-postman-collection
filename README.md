@@ -10,7 +10,7 @@ A Postman collection for Trello REST Api. Collection is saved in v2.
 
 ## Notes
 - You have to create an environment in Postman including at least the key `host`. This should always have the value `https://api.trello.com/1`. Take a look [here on how to create environments](https://www.getpostman.com/docs/postman/environments_and_globals/manage_environments).
-- Since Trello is using OAuth 1.0a, for a request you need to select *OAuth 1.0* within the *Authorization* tab in Postman. Take a look [here](https://www.getpostman.com/docs/postman/sending_api_requests/authorization). Therefore in the this Trello collection, the following keys are assumed to be available in the environment configuration: `consumer_key`, `consumer_secret`, `token`, `token_secret`. Take a look [here and get your Trello API keys](https://trello.com/app-key).
+- Since Trello is using OAuth 1.0a, for a request you need to select *OAuth 1.0* within the *Authorization* tab in Postman. Take a look [here](https://www.getpostman.com/docs/postman/sending_api_requests/authorization). Therefore in this Trello collection, the following keys are assumed to be available in the environment configuration: `consumer_key`, `consumer_secret`, `token`, `token_secret`. Take a look [here and get your Trello API keys](https://trello.com/app-key).
 
 
 ## Supported Endpoints
