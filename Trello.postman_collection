@@ -1,0 +1,1799 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Trello",
+		"_postman_id": "08b4674d-32d7-a2c0-7421-15325b3181a7",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "boards",
+			"description": "",
+			"item": [
+				{
+					"name": "/boards/:id",
+					"request": {
+						"auth": {
+							"type": "oauth1",
+							"oauth1": {
+								"consumerKey": "{{consumer_key}}",
+								"consumerSecret": "{{consumer_secret}}",
+								"token": "{{token}}",
+								"tokenSecret": "{{token_secret}}",
+								"signatureMethod": "HMAC-SHA1",
+								"timestamp": 1499860097,
+								"nonce": "OOVu6c",
+								"version": "1.0A",
+								"realm": "",
+								"addParamsToHeader": false,
+								"addEmptyParamsToSign": false
+							}
+						},
+						"url": {
+							"raw": "{{host}}/boards/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"boards",
+								":id"
+							],
+							"query": [],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "/boards/:id/actions",
+					"request": {
+						"auth": {
+							"type": "oauth1",
+							"oauth1": {
+								"consumerKey": "{{consumer_key}}",
+								"consumerSecret": "{{consumer_secret}}",
+								"token": "{{token}}",
+								"tokenSecret": "{{token_secret}}",
+								"signatureMethod": "HMAC-SHA1",
+								"timestamp": 1499860097,
+								"nonce": "OOVu6c",
+								"version": "1.0A",
+								"realm": "",
+								"addParamsToHeader": false,
+								"addEmptyParamsToSign": false
+							}
+						},
+						"url": {
+							"raw": "{{host}}/boards/:id/actions",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"boards",
+								":id",
+								"actions"
+							],
+							"query": [],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "/boards/:id/cards",
+					"request": {
+						"auth": {
+							"type": "oauth1",
+							"oauth1": {
+								"consumerKey": "{{consumer_key}}",
+								"consumerSecret": "{{consumer_secret}}",
+								"token": "{{token}}",
+								"tokenSecret": "{{token_secret}}",
+								"signatureMethod": "HMAC-SHA1",
+								"timestamp": 1499860097,
+								"nonce": "OOVu6c",
+								"version": "1.0A",
+								"realm": "",
+								"addParamsToHeader": false,
+								"addEmptyParamsToSign": false
+							}
+						},
+						"url": {
+							"raw": "{{host}}/boards/:id/cards",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"boards",
+								":id",
+								"cards"
+							],
+							"query": [],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "/boards/:id/labels",
+					"request": {
+						"auth": {
+							"type": "oauth1",
+							"oauth1": {
+								"consumerKey": "{{consumer_key}}",
+								"consumerSecret": "{{consumer_secret}}",
+								"token": "{{token}}",
+								"tokenSecret": "{{token_secret}}",
+								"signatureMethod": "HMAC-SHA1",
+								"timestamp": 1499860097,
+								"nonce": "OOVu6c",
+								"version": "1.0A",
+								"realm": "",
+								"addParamsToHeader": false,
+								"addEmptyParamsToSign": false
+							}
+						},
+						"url": {
+							"raw": "{{host}}/boards/:id/labels",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"boards",
+								":id",
+								"labels"
+							],
+							"query": [],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "/boards/:id/lists",
+					"request": {
+						"auth": {
+							"type": "oauth1",
+							"oauth1": {
+								"consumerKey": "{{consumer_key}}",
+								"consumerSecret": "{{consumer_secret}}",
+								"token": "{{token}}",
+								"tokenSecret": "{{token_secret}}",
+								"signatureMethod": "HMAC-SHA1",
+								"timestamp": 1499860097,
+								"nonce": "OOVu6c",
+								"version": "1.0A",
+								"realm": "",
+								"addParamsToHeader": false,
+								"addEmptyParamsToSign": false
+							}
+						},
+						"url": {
+							"raw": "{{host}}/boards/:id/lists",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"boards",
+								":id",
+								"lists"
+							],
+							"query": [],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "/boards/:id/members",
+					"request": {
+						"auth": {
+							"type": "oauth1",
+							"oauth1": {
+								"consumerKey": "{{consumer_key}}",
+								"consumerSecret": "{{consumer_secret}}",
+								"token": "{{token}}",
+								"tokenSecret": "{{token_secret}}",
+								"signatureMethod": "HMAC-SHA1",
+								"timestamp": 1499860097,
+								"nonce": "OOVu6c",
+								"version": "1.0A",
+								"realm": "",
+								"addParamsToHeader": false,
+								"addEmptyParamsToSign": false
+							}
+						},
+						"url": {
+							"raw": "{{host}}/boards/:id/members",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"boards",
+								":id",
+								"members"
+							],
+							"query": [],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "/boards/:id/organization",
+					"request": {
+						"auth": {
+							"type": "oauth1",
+							"oauth1": {
+								"consumerKey": "{{consumer_key}}",
+								"consumerSecret": "{{consumer_secret}}",
+								"token": "{{token}}",
+								"tokenSecret": "{{token_secret}}",
+								"signatureMethod": "HMAC-SHA1",
+								"timestamp": 1499860097,
+								"nonce": "OOVu6c",
+								"version": "1.0A",
+								"realm": "",
+								"addParamsToHeader": false,
+								"addEmptyParamsToSign": false
+							}
+						},
+						"url": {
+							"raw": "{{host}}/boards/:id/organization",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"boards",
+								":id",
+								"organization"
+							],
+							"query": [],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "/boards/:id",
+					"request": {
+						"auth": {
+							"type": "oauth1",
+							"oauth1": {
+								"consumerKey": "{{consumer_key}}",
+								"consumerSecret": "{{consumer_secret}}",
+								"token": "{{token}}",
+								"tokenSecret": "{{token_secret}}",
+								"signatureMethod": "HMAC-SHA1",
+								"timestamp": 1499860097,
+								"nonce": "OOVu6c",
+								"version": "1.0A",
+								"realm": "",
+								"addParamsToHeader": false,
+								"addEmptyParamsToSign": false
+							}
+						},
+						"url": {
+							"raw": "{{host}}/boards/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"boards",
+								":id"
+							],
+							"query": [],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"put in this JSON only the fields you want to update\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "/boards",
+					"request": {
+						"auth": {
+							"type": "oauth1",
+							"oauth1": {
+								"consumerKey": "{{consumer_key}}",
+								"consumerSecret": "{{consumer_secret}}",
+								"token": "{{token}}",
+								"tokenSecret": "{{token_secret}}",
+								"signatureMethod": "HMAC-SHA1",
+								"timestamp": 1499860097,
+								"nonce": "OOVu6c",
+								"version": "1.0A",
+								"realm": "",
+								"addParamsToHeader": false,
+								"addEmptyParamsToSign": false
+							}
+						},
+						"url": "{{host}}/boards",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Board name\",\n    \"desc\": \"Your Description\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "cards",
+			"description": "",
+			"item": [
+				{
+					"name": "/cards/:id",
+					"request": {
+						"auth": {
+							"type": "oauth1",
+							"oauth1": {
+								"consumerKey": "{{consumer_key}}",
+								"consumerSecret": "{{consumer_secret}}",
+								"token": "{{token}}",
+								"tokenSecret": "{{token_secret}}",
+								"signatureMethod": "HMAC-SHA1",
+								"timestamp": 1499860097,
+								"nonce": "OOVu6c",
+								"version": "1.0A",
+								"realm": "",
+								"addParamsToHeader": false,
+								"addEmptyParamsToSign": false
+							}
+						},
+						"url": {
+							"raw": "{{host}}/cards/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"cards",
+								":id"
+							],
+							"query": [],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "/cards/:id/actions",
+					"request": {
+						"auth": {
+							"type": "oauth1",
+							"oauth1": {
+								"consumerKey": "{{consumer_key}}",
+								"consumerSecret": "{{consumer_secret}}",
+								"token": "{{token}}",
+								"tokenSecret": "{{token_secret}}",
+								"signatureMethod": "HMAC-SHA1",
+								"timestamp": 1499860097,
+								"nonce": "OOVu6c",
+								"version": "1.0A",
+								"realm": "",
+								"addParamsToHeader": false,
+								"addEmptyParamsToSign": false
+							}
+						},
+						"url": {
+							"raw": "{{host}}/cards/:id/actions",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"cards",
+								":id",
+								"actions"
+							],
+							"query": [],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "/cards/:id/attachments",
+					"request": {
+						"auth": {
+							"type": "oauth1",
+							"oauth1": {
+								"consumerKey": "{{consumer_key}}",
+								"consumerSecret": "{{consumer_secret}}",
+								"token": "{{token}}",
+								"tokenSecret": "{{token_secret}}",
+								"signatureMethod": "HMAC-SHA1",
+								"timestamp": 1499860097,
+								"nonce": "OOVu6c",
+								"version": "1.0A",
+								"realm": "",
+								"addParamsToHeader": false,
+								"addEmptyParamsToSign": false
+							}
+						},
+						"url": {
+							"raw": "{{host}}/cards/:id/attachments",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"cards",
+								":id",
+								"attachments"
+							],
+							"query": [],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "/cards/:id/board",
+					"request": {
+						"auth": {
+							"type": "oauth1",
+							"oauth1": {
+								"consumerKey": "{{consumer_key}}",
+								"consumerSecret": "{{consumer_secret}}",
+								"token": "{{token}}",
+								"tokenSecret": "{{token_secret}}",
+								"signatureMethod": "HMAC-SHA1",
+								"timestamp": 1499860097,
+								"nonce": "OOVu6c",
+								"version": "1.0A",
+								"realm": "",
+								"addParamsToHeader": false,
+								"addEmptyParamsToSign": false
+							}
+						},
+						"url": {
+							"raw": "{{host}}/cards/:id/board",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"cards",
+								":id",
+								"board"
+							],
+							"query": [],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "/cards/:id/checklists",
+					"request": {
+						"auth": {
+							"type": "oauth1",
+							"oauth1": {
+								"consumerKey": "{{consumer_key}}",
+								"consumerSecret": "{{consumer_secret}}",
+								"token": "{{token}}",
+								"tokenSecret": "{{token_secret}}",
+								"signatureMethod": "HMAC-SHA1",
+								"timestamp": 1499860097,
+								"nonce": "OOVu6c",
+								"version": "1.0A",
+								"realm": "",
+								"addParamsToHeader": false,
+								"addEmptyParamsToSign": false
+							}
+						},
+						"url": {
+							"raw": "{{host}}/cards/:id/checklists",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"cards",
+								":id",
+								"checklists"
+							],
+							"query": [],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "/cards/:id/list",
+					"request": {
+						"auth": {
+							"type": "oauth1",
+							"oauth1": {
+								"consumerKey": "{{consumer_key}}",
+								"consumerSecret": "{{consumer_secret}}",
+								"token": "{{token}}",
+								"tokenSecret": "{{token_secret}}",
+								"signatureMethod": "HMAC-SHA1",
+								"timestamp": 1499860097,
+								"nonce": "OOVu6c",
+								"version": "1.0A",
+								"realm": "",
+								"addParamsToHeader": false,
+								"addEmptyParamsToSign": false
+							}
+						},
+						"url": {
+							"raw": "{{host}}/cards/:id/list",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"cards",
+								":id",
+								"list"
+							],
+							"query": [],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "/cards/:id/members",
+					"request": {
+						"auth": {
+							"type": "oauth1",
+							"oauth1": {
+								"consumerKey": "{{consumer_key}}",
+								"consumerSecret": "{{consumer_secret}}",
+								"token": "{{token}}",
+								"tokenSecret": "{{token_secret}}",
+								"signatureMethod": "HMAC-SHA1",
+								"timestamp": 1499860097,
+								"nonce": "OOVu6c",
+								"version": "1.0A",
+								"realm": "",
+								"addParamsToHeader": false,
+								"addEmptyParamsToSign": false
+							}
+						},
+						"url": {
+							"raw": "{{host}}/cards/:id/members",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"cards",
+								":id",
+								"members"
+							],
+							"query": [],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "/cards/:id",
+					"request": {
+						"auth": {
+							"type": "oauth1",
+							"oauth1": {
+								"consumerKey": "{{consumer_key}}",
+								"consumerSecret": "{{consumer_secret}}",
+								"token": "{{token}}",
+								"tokenSecret": "{{token_secret}}",
+								"signatureMethod": "HMAC-SHA1",
+								"timestamp": 1499860097,
+								"nonce": "OOVu6c",
+								"version": "1.0A",
+								"realm": "",
+								"addParamsToHeader": false,
+								"addEmptyParamsToSign": false
+							}
+						},
+						"url": {
+							"raw": "{{host}}/cards/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"cards",
+								":id"
+							],
+							"query": [],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"put in this JSON only the fields you want to update\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "/cards/:id/desc",
+					"request": {
+						"auth": {
+							"type": "oauth1",
+							"oauth1": {
+								"consumerKey": "{{consumer_key}}",
+								"consumerSecret": "{{consumer_secret}}",
+								"token": "{{token}}",
+								"tokenSecret": "{{token_secret}}",
+								"signatureMethod": "HMAC-SHA1",
+								"timestamp": 1499860097,
+								"nonce": "OOVu6c",
+								"version": "1.0A",
+								"realm": "",
+								"addParamsToHeader": false,
+								"addEmptyParamsToSign": false
+							}
+						},
+						"url": {
+							"raw": "{{host}}/cards/:id/desc",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"cards",
+								":id",
+								"desc"
+							],
+							"query": [],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "value",
+									"value": "{{VALUE}}",
+									"description": "",
+									"type": "text"
+								}
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "/cards",
+					"request": {
+						"auth": {
+							"type": "oauth1",
+							"oauth1": {
+								"consumerKey": "{{consumer_key}}",
+								"consumerSecret": "{{consumer_secret}}",
+								"token": "{{token}}",
+								"tokenSecret": "{{token_secret}}",
+								"signatureMethod": "HMAC-SHA1",
+								"timestamp": 1499860097,
+								"nonce": "OOVu6c",
+								"version": "1.0A",
+								"realm": "",
+								"addParamsToHeader": false,
+								"addEmptyParamsToSign": false
+							}
+						},
+						"url": "{{host}}/cards",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"desc\": \"your description\",\n    \"descData\": {\n        \"emoji\": {}\n    },\n    \"idBoard\": \"{{BOARD_ID}}\",\n    \"idList\": \"{{LIST_ID}}\",\n    \"name\": \"card name\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "/cards/:id",
+					"request": {
+						"auth": {
+							"type": "oauth1",
+							"oauth1": {
+								"consumerKey": "{{consumer_key}}",
+								"consumerSecret": "{{consumer_secret}}",
+								"token": "{{token}}",
+								"tokenSecret": "{{token_secret}}",
+								"signatureMethod": "HMAC-SHA1",
+								"timestamp": 1499860097,
+								"nonce": "OOVu6c",
+								"version": "1.0A",
+								"realm": "",
+								"addParamsToHeader": false,
+								"addEmptyParamsToSign": false
+							}
+						},
+						"url": {
+							"raw": "{{host}}/cards/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"cards",
+								":id"
+							],
+							"query": [],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"put in this JSON only the fields you want to update\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "lists",
+			"description": "",
+			"item": [
+				{
+					"name": "/lists/:id",
+					"request": {
+						"auth": {
+							"type": "oauth1",
+							"oauth1": {
+								"consumerKey": "{{consumer_key}}",
+								"consumerSecret": "{{consumer_secret}}",
+								"token": "{{token}}",
+								"tokenSecret": "{{token_secret}}",
+								"signatureMethod": "HMAC-SHA1",
+								"timestamp": 1499860097,
+								"nonce": "OOVu6c",
+								"version": "1.0A",
+								"realm": "",
+								"addParamsToHeader": false,
+								"addEmptyParamsToSign": false
+							}
+						},
+						"url": {
+							"raw": "{{host}}/lists/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"lists",
+								":id"
+							],
+							"query": [],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "/cards/:id/stickers",
+					"request": {
+						"auth": {
+							"type": "oauth1",
+							"oauth1": {
+								"consumerKey": "{{consumer_key}}",
+								"consumerSecret": "{{consumer_secret}}",
+								"token": "{{token}}",
+								"tokenSecret": "{{token_secret}}",
+								"signatureMethod": "HMAC-SHA1",
+								"timestamp": 1499860097,
+								"nonce": "OOVu6c",
+								"version": "1.0A",
+								"realm": "",
+								"addParamsToHeader": false,
+								"addEmptyParamsToSign": false
+							}
+						},
+						"url": {
+							"raw": "{{host}}/cards/:id/stickers",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"cards",
+								":id",
+								"stickers"
+							],
+							"query": [],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "/lists/:id/actions",
+					"request": {
+						"auth": {
+							"type": "oauth1",
+							"oauth1": {
+								"consumerKey": "{{consumer_key}}",
+								"consumerSecret": "{{consumer_secret}}",
+								"token": "{{token}}",
+								"tokenSecret": "{{token_secret}}",
+								"signatureMethod": "HMAC-SHA1",
+								"timestamp": 1499860097,
+								"nonce": "OOVu6c",
+								"version": "1.0A",
+								"realm": "",
+								"addParamsToHeader": false,
+								"addEmptyParamsToSign": false
+							}
+						},
+						"url": {
+							"raw": "{{host}}/lists/:id/actions",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"lists",
+								":id",
+								"actions"
+							],
+							"query": [],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "/lists/:id/board",
+					"request": {
+						"auth": {
+							"type": "oauth1",
+							"oauth1": {
+								"consumerKey": "{{consumer_key}}",
+								"consumerSecret": "{{consumer_secret}}",
+								"token": "{{token}}",
+								"tokenSecret": "{{token_secret}}",
+								"signatureMethod": "HMAC-SHA1",
+								"timestamp": 1499860097,
+								"nonce": "OOVu6c",
+								"version": "1.0A",
+								"realm": "",
+								"addParamsToHeader": false,
+								"addEmptyParamsToSign": false
+							}
+						},
+						"url": {
+							"raw": "{{host}}/lists/:id/board",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"lists",
+								":id",
+								"board"
+							],
+							"query": [],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "/lists/:id/cards",
+					"request": {
+						"auth": {
+							"type": "oauth1",
+							"oauth1": {
+								"consumerKey": "{{consumer_key}}",
+								"consumerSecret": "{{consumer_secret}}",
+								"token": "{{token}}",
+								"tokenSecret": "{{token_secret}}",
+								"signatureMethod": "HMAC-SHA1",
+								"timestamp": 1499860097,
+								"nonce": "OOVu6c",
+								"version": "1.0A",
+								"realm": "",
+								"addParamsToHeader": false,
+								"addEmptyParamsToSign": false
+							}
+						},
+						"url": {
+							"raw": "{{host}}/lists/:id/cards",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"lists",
+								":id",
+								"cards"
+							],
+							"query": [],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "/lists/:id",
+					"request": {
+						"auth": {
+							"type": "oauth1",
+							"oauth1": {
+								"consumerKey": "{{consumer_key}}",
+								"consumerSecret": "{{consumer_secret}}",
+								"token": "{{token}}",
+								"tokenSecret": "{{token_secret}}",
+								"signatureMethod": "HMAC-SHA1",
+								"timestamp": 1499860097,
+								"nonce": "OOVu6c",
+								"version": "1.0A",
+								"realm": "",
+								"addParamsToHeader": false,
+								"addEmptyParamsToSign": false
+							}
+						},
+						"url": {
+							"raw": "{{host}}/lists/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"lists",
+								":id"
+							],
+							"query": [],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"put in this JSON only the fields you want to update\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "/lists",
+					"request": {
+						"auth": {
+							"type": "oauth1",
+							"oauth1": {
+								"consumerKey": "{{consumer_key}}",
+								"consumerSecret": "{{consumer_secret}}",
+								"token": "{{token}}",
+								"tokenSecret": "{{token_secret}}",
+								"signatureMethod": "HMAC-SHA1",
+								"timestamp": 1499860097,
+								"nonce": "OOVu6c",
+								"version": "1.0A",
+								"realm": "",
+								"addParamsToHeader": false,
+								"addEmptyParamsToSign": false
+							}
+						},
+						"url": "{{host}}/lists",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"List name\",\n    \"idBoard\": \"{{BOARD_ID}}\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "members",
+			"description": "",
+			"item": [
+				{
+					"name": "/members/me",
+					"request": {
+						"auth": {
+							"type": "oauth1",
+							"oauth1": {
+								"consumerKey": "{{consumer_key}}",
+								"consumerSecret": "{{consumer_secret}}",
+								"token": "{{token}}",
+								"tokenSecret": "{{token_secret}}",
+								"signatureMethod": "HMAC-SHA1",
+								"timestamp": 1499860097,
+								"nonce": "OOVu6c",
+								"version": "1.0A",
+								"realm": "",
+								"addParamsToHeader": false,
+								"addEmptyParamsToSign": false
+							}
+						},
+						"url": "{{host}}/members/me",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "/members/:userIdOrName",
+					"request": {
+						"auth": {
+							"type": "oauth1",
+							"oauth1": {
+								"consumerKey": "{{consumer_key}}",
+								"consumerSecret": "{{consumer_secret}}",
+								"token": "{{token}}",
+								"tokenSecret": "{{token_secret}}",
+								"signatureMethod": "HMAC-SHA1",
+								"timestamp": 1499860097,
+								"nonce": "OOVu6c",
+								"version": "1.0A",
+								"realm": "",
+								"addParamsToHeader": false,
+								"addEmptyParamsToSign": false
+							}
+						},
+						"url": {
+							"raw": "{{host}}/members/:userIdOrName",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"members",
+								":userIdOrName"
+							],
+							"query": [],
+							"variable": [
+								{
+									"key": "userIdOrName",
+									"value": ""
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "/members/:id/actions",
+					"request": {
+						"auth": {
+							"type": "oauth1",
+							"oauth1": {
+								"consumerKey": "{{consumer_key}}",
+								"consumerSecret": "{{consumer_secret}}",
+								"token": "{{token}}",
+								"tokenSecret": "{{token_secret}}",
+								"signatureMethod": "HMAC-SHA1",
+								"timestamp": 1499860097,
+								"nonce": "OOVu6c",
+								"version": "1.0A",
+								"realm": "",
+								"addParamsToHeader": false,
+								"addEmptyParamsToSign": false
+							}
+						},
+						"url": {
+							"raw": "{{host}}/members/:id/actions",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"members",
+								":id",
+								"actions"
+							],
+							"query": [],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "/members/:id/boards",
+					"request": {
+						"auth": {
+							"type": "oauth1",
+							"oauth1": {
+								"consumerKey": "{{consumer_key}}",
+								"consumerSecret": "{{consumer_secret}}",
+								"token": "{{token}}",
+								"tokenSecret": "{{token_secret}}",
+								"signatureMethod": "HMAC-SHA1",
+								"timestamp": 1499860097,
+								"nonce": "OOVu6c",
+								"version": "1.0A",
+								"realm": "",
+								"addParamsToHeader": false,
+								"addEmptyParamsToSign": false
+							}
+						},
+						"url": {
+							"raw": "{{host}}/members/:id/boards",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"members",
+								":id",
+								"boards"
+							],
+							"query": [],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "/members/:id/cards",
+					"request": {
+						"auth": {
+							"type": "oauth1",
+							"oauth1": {
+								"consumerKey": "{{consumer_key}}",
+								"consumerSecret": "{{consumer_secret}}",
+								"token": "{{token}}",
+								"tokenSecret": "{{token_secret}}",
+								"signatureMethod": "HMAC-SHA1",
+								"timestamp": 1499860097,
+								"nonce": "OOVu6c",
+								"version": "1.0A",
+								"realm": "",
+								"addParamsToHeader": false,
+								"addEmptyParamsToSign": false
+							}
+						},
+						"url": {
+							"raw": "{{host}}/members/:id/cards",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"members",
+								":id",
+								"cards"
+							],
+							"query": [],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "/members/:id/notifications",
+					"request": {
+						"auth": {
+							"type": "oauth1",
+							"oauth1": {
+								"consumerKey": "{{consumer_key}}",
+								"consumerSecret": "{{consumer_secret}}",
+								"token": "{{token}}",
+								"tokenSecret": "{{token_secret}}",
+								"signatureMethod": "HMAC-SHA1",
+								"timestamp": 1499860097,
+								"nonce": "OOVu6c",
+								"version": "1.0A",
+								"realm": "",
+								"addParamsToHeader": false,
+								"addEmptyParamsToSign": false
+							}
+						},
+						"url": {
+							"raw": "{{host}}/members/:id/notifications",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"members",
+								":id",
+								"notifications"
+							],
+							"query": [],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "/members/:id/organizations",
+					"request": {
+						"auth": {
+							"type": "oauth1",
+							"oauth1": {
+								"consumerKey": "{{consumer_key}}",
+								"consumerSecret": "{{consumer_secret}}",
+								"token": "{{token}}",
+								"tokenSecret": "{{token_secret}}",
+								"signatureMethod": "HMAC-SHA1",
+								"timestamp": 1499860097,
+								"nonce": "OOVu6c",
+								"version": "1.0A",
+								"realm": "",
+								"addParamsToHeader": false,
+								"addEmptyParamsToSign": false
+							}
+						},
+						"url": {
+							"raw": "{{host}}/members/:id/organizations",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"members",
+								":id",
+								"organizations"
+							],
+							"query": [],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "/members/:id/tokens",
+					"request": {
+						"auth": {
+							"type": "oauth1",
+							"oauth1": {
+								"consumerKey": "{{consumer_key}}",
+								"consumerSecret": "{{consumer_secret}}",
+								"token": "{{token}}",
+								"tokenSecret": "{{token_secret}}",
+								"signatureMethod": "HMAC-SHA1",
+								"timestamp": 1499860097,
+								"nonce": "OOVu6c",
+								"version": "1.0A",
+								"realm": "",
+								"addParamsToHeader": false,
+								"addEmptyParamsToSign": false
+							}
+						},
+						"url": {
+							"raw": "{{host}}/members/:id/tokens",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"members",
+								":id",
+								"tokens"
+							],
+							"query": [],
+							"variable": [
+								{
+									"key": "id",
+									"value": ""
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "tokens",
+			"description": "",
+			"item": [
+				{
+					"name": "/tokens/:token",
+					"request": {
+						"auth": {
+							"type": "oauth1",
+							"oauth1": {
+								"consumerKey": "{{consumer_key}}",
+								"consumerSecret": "{{consumer_secret}}",
+								"token": "{{token}}",
+								"tokenSecret": "{{token_secret}}",
+								"signatureMethod": "HMAC-SHA1",
+								"timestamp": 1499860097,
+								"nonce": "OOVu6c",
+								"version": "1.0A",
+								"realm": "",
+								"addParamsToHeader": false,
+								"addEmptyParamsToSign": false
+							}
+						},
+						"url": {
+							"raw": "{{host}}/tokens/:token",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"tokens",
+								":token"
+							],
+							"query": [],
+							"variable": [
+								{
+									"key": "token",
+									"value": ""
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "/tokens/:token/webhooks",
+					"request": {
+						"auth": {
+							"type": "oauth1",
+							"oauth1": {
+								"consumerKey": "{{consumer_key}}",
+								"consumerSecret": "{{consumer_secret}}",
+								"token": "{{token}}",
+								"tokenSecret": "{{token_secret}}",
+								"signatureMethod": "HMAC-SHA1",
+								"timestamp": 1499860097,
+								"nonce": "OOVu6c",
+								"version": "1.0A",
+								"realm": "",
+								"addParamsToHeader": false,
+								"addEmptyParamsToSign": false
+							}
+						},
+						"url": {
+							"raw": "{{host}}/tokens/:token/webhooks",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"tokens",
+								":token",
+								"webhooks"
+							],
+							"query": [],
+							"variable": [
+								{
+									"key": "token",
+									"value": ""
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": "Get all webhooks for token"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "webhooks",
+			"description": "",
+			"item": [
+				{
+					"name": "/webhooks/:webhookId",
+					"request": {
+						"auth": {
+							"type": "oauth1",
+							"oauth1": {
+								"consumerKey": "{{consumer_key}}",
+								"consumerSecret": "{{consumer_secret}}",
+								"token": "{{token}}",
+								"tokenSecret": "{{token_secret}}",
+								"signatureMethod": "HMAC-SHA1",
+								"timestamp": 1499860097,
+								"nonce": "OOVu6c",
+								"version": "1.0A",
+								"realm": "",
+								"addParamsToHeader": false,
+								"addEmptyParamsToSign": false
+							}
+						},
+						"url": {
+							"raw": "{{host}}/webhooks/:webhookId",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"webhooks",
+								":webhookId"
+							],
+							"query": [],
+							"variable": [
+								{
+									"key": "webhookId",
+									"value": ""
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "/webhooks",
+					"request": {
+						"auth": {
+							"type": "oauth1",
+							"oauth1": {
+								"consumerKey": "{{consumer_key}}",
+								"consumerSecret": "{{consumer_secret}}",
+								"token": "{{token}}",
+								"tokenSecret": "{{token_secret}}",
+								"signatureMethod": "HMAC-SHA1",
+								"timestamp": 1499860097,
+								"nonce": "OOVu6c",
+								"version": "1.0A",
+								"realm": "",
+								"addParamsToHeader": false,
+								"addEmptyParamsToSign": false
+							}
+						},
+						"url": "{{host}}/webhooks",
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"callbackURL\": \"{{URL}}\",\n    \"idModel\": \"{{MODEL_ID}}\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "/webhooks/:webhookId",
+					"request": {
+						"auth": {
+							"type": "oauth1",
+							"oauth1": {
+								"consumerKey": "{{consumer_key}}",
+								"consumerSecret": "{{consumer_secret}}",
+								"token": "{{token}}",
+								"tokenSecret": "{{token_secret}}",
+								"signatureMethod": "HMAC-SHA1",
+								"timestamp": 1499860097,
+								"nonce": "OOVu6c",
+								"version": "1.0A",
+								"realm": "",
+								"addParamsToHeader": false,
+								"addEmptyParamsToSign": false
+							}
+						},
+						"url": {
+							"raw": "{{host}}/webhooks/:webhookId",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"webhooks",
+								":webhookId"
+							],
+							"query": [],
+							"variable": [
+								{
+									"key": "webhookId",
+									"value": ""
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
